@@ -36,5 +36,10 @@ Hexo 自带各种主题，让我们专注于写文章，但 Hexo 却存在如下
 7. 比如我在 `https://github.com/iamwwc/blogsuepost` 的 issues 下面写文章，那你需要在 `https://github.com/iamwwc/blogsuepost` settings 界面填入从 netlify 申请的 webhook 链接
 8. 到你通过issues写了一篇文章，或者修改了tags，那么网站会重新生成部署
 
+如果你原来的 _posts 有文章，你没必要删除，hexop只是将 github issues 上的文章在这个folder下创建而已
 
-享用吧！
+**注意**
+
+hexop 文件命名采取 issueid + .md (比如 `1.md`)的形式，所以你确保你的文件名**不符合**这种形式
+
+尽情享用吧！
