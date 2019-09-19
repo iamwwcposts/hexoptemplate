@@ -42,4 +42,9 @@ Hexo 自带各种主题，让我们专注于写文章，但 Hexo 却存在如下
 
 hexop 文件命名采取 issueid + .md (比如 `1.md`)的形式，所以你确保你的文件名**不符合**这种形式
 
+**已知Bug**
+
+source/_posts 为空则 hexop 会出 `permission denied`错误
+所以不要删除 hello-world.md 文件。后续排查😁
+
 尽情享用吧！
