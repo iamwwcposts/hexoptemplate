@@ -1,4 +1,7 @@
 #/bin/bash
+set -x
+git submodule init
+git submodule update --remote
 
 npm install -g hexo-cli
 npm install
