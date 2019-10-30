@@ -25,7 +25,8 @@ Hexo 自带各种主题，让我们专注于写文章，但 Hexo 却存在如下
 3. 到 [Netlify](https://app.netlify.com) `New site from Git`，找到F，创建一个网站
 4. 为你的构建添加上几个环境变量
    1. REPO_URL: 填写你的 F 的地址 `https://github.com/iamwwc/hexoptemplate`
-   2. 如果你的仓库为私有，那需要添加 `GITHUB_TOKEN`: `你在Github上申请的token`
+   2. OWNER : 你想要查询的用户名，如果仓库在 org 中，org 的名字与你想要查询的名字不相同，这里可以指定具体的名字
+   3. 如果你的仓库为私有，那需要添加 `GITHUB_TOKEN`: `你在Github上申请的token`
 
 ![image](https://user-images.githubusercontent.com/24750337/65215479-3ea45f80-dae0-11e9-96e0-b623ab9e0d26.png)
 
