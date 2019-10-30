@@ -13,7 +13,7 @@ curl -s https://api.github.com/repos/iamwwc/hexop/releases/latest \
   | wget -i -
 chmod u+x hexop
 # run hexop
-./hexop --repourl ${REPO_URL}
+./hexop --repourl ${REPO_URL} --owner ${OWNER}
 
 hexo g
 hexo d
