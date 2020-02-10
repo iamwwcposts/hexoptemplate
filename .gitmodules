@@ -3,4 +3,4 @@
   url = https://github.com/hexojs/hexo-theme-landscape.git
 [submodule "themes/maupassant"]
 	path = themes/maupassant
-	url = https://github.com/iamwwc/maupassant-hexo.git
+	url = https://github.com/iamwwcposts/maupassant-hexo.git
